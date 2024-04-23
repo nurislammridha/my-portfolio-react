@@ -138,6 +138,72 @@ export const portfolioData = () => {
     return [
         {
             id: 1,
+            title: "SellKon - Multivendor E-commerce project",
+            slug: "bus-booking",
+            start_date: "2023-01-06",
+            end_date: null,
+            category_id: 2,
+            user_id: 1,
+            image: "https://res.cloudinary.com/nurislammridha/image/upload/v1713891394/WhatsApp_Image_2024-04-23_at_10.48.11_PM_c2vsfe.jpg",
+            logo: "https://res.cloudinary.com/nurislammridha/image/upload/v1711971433/p9glrcob2nzczuiq9kcr.png",
+            live_link: "https://sellkon.com/",
+            github_link: null,
+            short_description: "SellKon App solution for multi vendor e-commerce. It's developed using <code>Javascript</code>,<code>NodeJs</code>, <code>MongoDB</code>, <code>MoonGoose</code>, <code>TypeScript</code>,<code>NextJs</code>,<code>React</code>  & <code>HTML Bootstrap scss</code>",
+            long_description: "SellKon App solution for multi vendor e-commerce. It's developed using Javascript and Node",
+            client: "For one my client.",
+            is_running: 1,
+            order_priority: 0,
+            category: {
+                id: 2,
+                name: "Web Development",
+                slug: "web-development",
+                banner_image: null,
+                logo_image: null,
+                description: null,
+                meta_description: null,
+                parent_category_id: null,
+                status: 1,
+            },
+            programming_technologies: [
+                {
+                    id: 64,
+                    portfolio_id: 21,
+                    pt_id: 3,
+                    pt: {
+                        id: 3,
+                        name: "Node",
+                        slug: "node",
+                        description: null,
+                    }
+                },
+                {
+                    id: 65,
+                    portfolio_id: 21,
+                    pt_id: 13,
+                    pt: {
+                        id: 13,
+                        name: "React",
+                        slug: "react",
+                        description: null,
+                    }
+                },
+                {
+                    id: 66,
+                    portfolio_id: 21,
+                    pt_id: 13,
+                    pt: {
+                        id: 13,
+                        name: "NextJs",
+                        slug: "nextjs",
+                        description: null,
+                    }
+                },
+
+            ],
+            images: []
+        },
+        {
+            id: 1,
             title: "Bus Booking - MERN (With Next js 14) stack project ",
             slug: "bus-booking",
             start_date: "2023-01-06",
@@ -690,17 +756,17 @@ export const activityData = () => {
             name: "programming_skill",
             type_name: "PROGRAMMING SKILL",
             activities: [
-                {
-                    id: 1,
-                    title: "URI Online Judge",
-                    type: "programming_skill",
-                    description: "Total Solved : <strong>152+</strong><br />\r\nRank : <strong>3,737º</strong>",
-                    online_link: "",
-                    image: null,
-                    online_link_text: "View Profile",
-                    order_priority: 1,
-                    user_id: 1,
-                },
+                // {
+                //     id: 1,
+                //     title: "URI Online Judge",
+                //     type: "programming_skill",
+                //     description: "Total Solved : <strong>152+</strong><br />\r\nRank : <strong>3,737º</strong>",
+                //     online_link: "",
+                //     image: null,
+                //     online_link_text: "View Profile",
+                //     order_priority: 1,
+                //     user_id: 1,
+                // },
                 {
                     id: 2,
                     title: "UVA Online Judge",
@@ -712,36 +778,36 @@ export const activityData = () => {
                     order_priority: 3,
                     user_id: 1,
                 },
-                {
-                    id: 3,
-                    title: "Hacker Rank Online Judge",
-                    type: "programming_skill",
-                    description: "Total Solved : <strong>55+</strong><br />\r\nRank : <strong>-</strong>",
-                    online_link: "nk.com/",
-                    image: null,
-                    online_link_text: "View Profile",
-                    order_priority: 2,
-                    user_id: 1,
-                }
+                // {
+                //     id: 3,
+                //     title: "Hacker Rank Online Judge",
+                //     type: "programming_skill",
+                //     description: "Total Solved : <strong>55+</strong><br />\r\nRank : <strong>-</strong>",
+                //     online_link: "nk.com/",
+                //     image: null,
+                //     online_link_text: "View Profile",
+                //     order_priority: 2,
+                //     user_id: 1,
+                // }
             ]
         },
-        {
-            name: "social",
-            type_name: "SOCIAL",
-            activities: [
-                {
-                    id: 5,
-                    title: "Youtube Channel",
-                    type: "social",
-                    description: "Channel : <strong>Nurislam Mridha</strong><br />\r\nSubscriber: <strong>4.2K</strong>",
-                    online_link: "",
-                    image: null,
-                    online_link_text: "View Channel",
-                    order_priority: 20,
-                    user_id: 1,
-                }
-            ]
-        },
+        // {
+        //     name: "social",
+        //     type_name: "SOCIAL",
+        //     activities: [
+        //         {
+        //             id: 5,
+        //             title: "Youtube Channel",
+        //             type: "social",
+        //             description: "Channel : <strong>Nurislam Mridha</strong><br />\r\nSubscriber: <strong>0k</strong>",
+        //             online_link: "",
+        //             image: null,
+        //             online_link_text: "View Channel",
+        //             order_priority: 20,
+        //             user_id: 1,
+        //         }
+        //     ]
+        // },
         {
             name: "others",
             type_name: "OTHERS",

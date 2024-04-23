@@ -3,7 +3,8 @@ import "./styles.css";
 
 const CVDetails = (props) => {
     // const cvUrl = process.env.REACT_APP_CV_URL ?? '';
-    const cvUrl = "https://app.box.com/s/mpxqvmqlukfk2wztwtjzs5ec3zk78sqf";
+    // const cvUrl = "https://app.box.com/s/mpxqvmqlukfk2wztwtjzs5ec3zk78sqf";
+    const cvUrl = "https://app.box.com/s/boa0wozocs575ciyban44e42xontbsfm";
 
     return (
         <>
